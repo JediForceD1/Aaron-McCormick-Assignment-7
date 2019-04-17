@@ -48,6 +48,15 @@ int main()
 double get_average_base_depth(SnowData _array[], int size)
 {
 	double total_depth = 0;
+	short unsigned elem = 0;
+
+
+	do {
+
+		total_depth += _array[elem];
+
+
+	} while ();
 
 	return total_depth / 7;
 }
@@ -59,24 +68,6 @@ void print_array_elements(SnowData _array[], int size)
 void sort_by_base_depth(SnowData _array[], int size)
 {
 
-	int temp;
-	bool madeAswap;
-
-	do
-	{
-		madeAswap = false;
-		for (int count = 0; count < (size - 1); count++) {
-
-			if (_array[count] > _array[count + 1]) {
-
-				temp = _array[count];
-				_array[count] 
-			}
-		}
-
-
-
-	} while ();
 
 }
 void sort_by_date(SnowData _array[], int size)
